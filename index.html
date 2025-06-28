@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zocesh Animation Studios - Unleash Your Imagination</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Creepster&family=Press+Start+2P&family=Bangers&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="#" class="logo-link animate__animated animate__fadeInDown">
+                    <img src="logo.png" alt="Zocesh Animation Studios Logo" class="logo-img">
+                    <span class="logo-text">Zocesh Animation Studios</span>
+                </a>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#services" class="nav-link dropdown-toggle">Services <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#2d-animation" class="dropdown-item">2D Animation</a>
+                        <a href="#3d-animation" class="dropdown-item">3D Animation</a>
+                        <a href="#motion-graphics" class="dropdown-item">Motion Graphics</a>
+                        <a href="#vfx" class="dropdown-item">VFX & Compositing</a>
+                        <a href="#character-design" class="dropdown-item">Character Design</a>
+                        <a href="#storyboarding" class="dropdown-item">Storyboarding</a>
+                        <a href="#post-production" class="dropdown-item">Post-Production</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#portfolio" class="nav-link dropdown-toggle">Portfolio <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#featured-projects" class="dropdown-item">Featured Projects</a>
+                        <a href="#client-showcase" class="dropdown-item">Client Showcase</a>
+                        <a href="#personal-works" class="dropdown-item">Personal Works</a>
+                        <a href="#awards-recognitions" class="dropdown-item">Awards & Recognitions</a>
+                        <a href="#testimonials-reviews" class="dropdown-item">Testimonials & Reviews</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#team" class="nav-link">Our Team</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog & News</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link primary-button">Contact Us</a></li>
+                <li class="nav-item theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light theme">
+                        <i class="fas fa-moon light-icon"></i>
+                        <i class="fas fa-sun dark-icon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section id="hero" class="hero-section section-padding full-height animate__animated animate__fadeIn">
+            <div class="hero-background-layer layer-1"></div>
+            <div class="hero-background-layer layer-2"></div>
+            <div class="hero-content">
+                <h1 class="hero-title animate__animated animate__bounceInDown">
+                    <span class="text-highlight-1">Zocesh</span> <span class="text-highlight-2">Animation</span> <span class="text-highlight-3">Studios</span>
+                </h1>
+                <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s">
+                    Bringing Your <span class="emphasis-word">Wildest Ideas</span> to Life, Frame by Frame.
+                </p>
+                <div class="hero-cta-buttons animate__animated animate__zoomIn animate__delay-2s">
+                    <a href="#portfolio" class="cta-button primary-cta-button">Explore Our Masterpieces</a>
+                    <a href="#contact" class="cta-button secondary-cta-button">Start Your Project Now</a>
+                </div>
+                <div class="hero-scroll-indicator animate__animated animate__pulse animate__infinite">
+                    <p>Scroll Down to Discover</p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="hero-visual-elements">
+                <div class="hero-character character-1 animate__animated animate__slideInLeft"></div>
+                <div class="hero-character character-2 animate__animated animate__slideInRight"></div>
+                <div class="hero-particle-system">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding animate__animated animate__fadeInUp">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__fadeIn">About Zocesh Animation Studios</h2>
+                <p class="section-description animate__animated animate__fadeIn animate__delay-0-5s">
+                    At Zocesh, we are more than just animators; we are storytellers, dream weavers, and visual alchemists.
+                </p>
+
+                <div class="about-grid">
+                    <div class="about-card vision-card animate__animated animate__zoomIn">
+                        <i class="fas fa-eye about-icon"></i>
+                        <h3>Our Vision</h3>
+                        <p>To be the leading force in innovative animation, creating unforgettable visual narratives that resonate globally and inspire generations. We believe in pushing the boundaries of creativity and technology.</p>
+                        <ul class="vision-points">
+                            <li><i class="fas fa-check-circle"></i> Global Reach</li>
+                            <li><i class="fas fa-check-circle"></i> Technological Innovation</li>
+                            <li><i class="fas fa-check-circle"></i> Creative Excellence</li>
+                            <li><i class="fas fa-check-circle"></i> Audience Engagement</li>
+                            <li><i class="fas fa-check-circle"></i> Sustainable Practices</li>
+                            <li><i class="fas fa-check-circle"></i> Community Impact</li>
+                        </ul>
+                    </div>
+                    <div class="about-card mission-card animate__animated animate__zoomIn animate__delay-0-2s">
+                        <i class="fas fa-bullseye about-icon"></i>
+                        <h3>Our Mission</h3>
+                        <p>To craft captivating animated content that combines artistic mastery with cutting-edge technology, delivering unparalleled quality and emotional depth for our clients and audiences worldwide.</p>
+                        <div class="mission-features">
+                            <span class="feature-tag"><i class="fas fa-star"></i> Quality First</span>
+                            <span class="feature-tag"><i class="fas fa-lightbulb"></i> Innovation</span>
+                            <span class="feature-tag"><i class="fas fa-users"></i> Collaboration</span>
+                            <span class="feature-tag"><i class="fas fa-seedling"></i> Growth</span>
+                            <span class="feature-tag"><i class="fas fa-magic"></i> Creativity</span>
+                            <span class="feature-tag"><i class="fas fa-rocket"></i> Pushing Limits</span>
+                        </div>
+                    </div>
+                    <div class="about-card values-card animate__animated animate__zoomIn animate__delay-0-4s">
+                        <i class="fas fa-handshake about-icon"></i>
+                        <h3>Our Values</h3>
+                        <p>Integrity, creativity, collaboration, and relentless pursuit of excellence are the cornerstones of our studio. We foster an environment where ideas flourish and passion drives every project.</p>
+                        <ol class="values-list">
+                            <li><span>1.</span> **Creativity:** Unleashing boundless imagination.</li>
+                            <li><span>2.</span> **Integrity:** Building trust through transparency.</li>
+                            <li><span>3.</span> **Collaboration:** Achieving more together.</li>
+                            <li><span>4.</span> **Excellence:** Striving for perfection in every frame.</li>
+                            <li><span>5.</span> **Adaptability:** Embracing change and new techniques.</li>
+                            <li><span>6.</span> **Passion:** Fueling our work with genuine love for animation.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight-item animate__animated animate__fadeInLeft">
+                        <img src="about-img-1.jpg" alt="Creative Process" class="highlight-image">
+                        <div class="highlight-content">
+                            <h4>The Creative Process</h4>
+                            <p>Our methodology combines artistic flair with disciplined execution. From concept art to final render, every step is meticulously planned and perfected, ensuring your vision comes to life exactly as you imagined.</p>
+                            <a href="#" class="read-more-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="highlight-item animate__animated animate__fadeInRight">
+                        <img src="about-img-2.jpg" alt="Our Studio" class="highlight-image">
+                        <div class="highlight-content">
+                            <h4>Our State-of-the-Art Studio</h4>
+                            <p>Equipped with the latest technology and a vibrant workspace, our studio is a hub of innovation. We invest in the best tools and talent to deliver cutting-edge animation solutions.</p>
+                            <a href="#" class="read-more-link">Take a Virtual Tour <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="highlight-item animate__animated animate__fadeInUp">
+                        <img src="about-img-3.jpg" alt="Client Testimonials" class="highlight-image">
+                        <div class="highlight-content">
+                            <h4>Client Success Stories</h4>
+                            <p>Our commitment to client satisfaction has led to numerous successful collaborations. We pride ourselves on building lasting relationships and exceeding expectations with every project.</p>
+                            <a href="#" class="read-more-link">View Testimonials <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-fun-facts">
+                    <h3 class="fun-facts-title animate__animated animate__fadeInUp">Fun Facts & Milestones</h3>
+                    <div class="fun-facts-grid">
+                        <div class="fact-item animate__animated animate__flipInX">
+                            <span class="fact-number" data-target="1500">+</span>
+                            <p class="fact-description">Projects Completed</p>
+                            <i class="fas fa-check-double fact-icon"></i>
+                        </div>
+                        <div class="fact-item animate__animated animate__flipInX animate__delay-0-1s">
+                            <span class="fact-number" data-target="25000000">+</span>
+                            <p class="fact-description">Frames Rendered Annually</p>
+                            <i class="fas fa-video fact-icon"></i>
+                        </div>
+                        <div class="fact-item animate__animated animate__flipInX animate__delay-0-2s">
+                            <span class="fact-number" data-target="15">+</span>
+                            <p class="fact-description">Years of Combined Experience</p>
+                            <i class="fas fa-history fact-icon"></i>
+                        </div>
+                        <div class="fact-item animate__animated animate__flipInX animate__delay-0-3s">
+                            <span class="fact-number" data-target="12">+</span>
+                            <p class="fact-description">International Awards</p>
+                            <i class="fas fa-award fact-icon"></i>
+                        </div>
+                        <div class="fact-item animate__animated animate__flipInX animate__delay-0-4s">
+                            <span class="fact-number" data-target="98">%</span>
+                            <p class="fact-description">Client Satisfaction Rate</p>
+                            <i class="fas fa-heart fact-icon"></i>
+                        </div>
+                        <div class="fact-item animate__animated animate__flipInX animate__delay-0-5s">
+                            <span class="fact-number" data-target="30">+</span>
+                            <p class="fact-description">Happy Global Clients</p>
+                            <i class="fas fa-globe fact-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section-padding animate__animated animate__fadeIn">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__fadeInDown">Our Animation Services</h2>
+                <p class="section-description animate__animated animate__fadeInDown animate__delay-0-3s">
+                    Explore our comprehensive suite of animation and visual effects services, tailored to bring any story to life.
+                </p>
+
+                <div class="service-categories">
+                    <button class="category-button active" data-category="all">All Services</button>
+                    <button class="category-button" data-category="2d">2D Animation</button>
+                    <button class="category-button" data-category="3d">3D Animation</button>
+                    <button class="category-button" data-category="motion">Motion Graphics</button>
+                    <button class="category-button" data-category="vfx">VFX & Compositing</button>
+                    <button class="category-button" data-category="design">Design & Pre-Prod</button>
+                    <button class="category-button" data-category="post">Post-Production</button>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card animate__animated animate__zoomIn service-type-2d service-type-design">
+                        <div class="card-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3 class="card-title">2D Character Animation</h3>
+                        <p class="card-description">From whimsical cartoons to explainer videos, our 2D animation breathes life into characters and narratives with vibrant artistry.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Traditional Frame-by-Frame</li>
+                            <li><i class="fas fa-check"></i> Rigged Character Animation</li>
+                            <li><i class="fas fa-check"></i> Explainer Videos</li>
+                            <li><i class="fas fa-check"></i> Educational Content</li>
+                            <li><i class="fas fa-check"></i> Background Art & Design</li>
+                            <li><i class="fas fa-check"></i> Storyboard & Animatics</li>
+                        </ul>
+                        <a href="#2d-animation-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card animate__animated animate__zoomIn service-type-3d service-type-post">
+                        <div class="card-icon"><i class="fas fa-cube"></i></div>
+                        <h3 class="card-title">3D CGI & Character Rigging</h3>
+                        <p class="card-description">We create immersive 3D worlds and lifelike characters for films, games, and architectural visualizations, pushing the boundaries of realism.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Photorealistic Rendering</li>
+                            <li><i class="fas fa-check"></i> Product Visualization</li>
+                            <li><i class="fas fa-check"></i> Architectural Walkthroughs</li>
+                            <li><i class="fas fa-check"></i> Game Assets & Cinematics</li>
+                            <li><i class="fas fa-check"></i> Character Modeling & Rigging</li>
+                            <li><i class="fas fa-check"></i> Environmental Design</li>
+                        </ul>
+                        <a href="#3d-animation-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card animate__animated animate__zoomIn service-type-motion service-type-post">
+                        <div class="card-icon"><i class="fas fa-tv"></i></div>
+                        <h3 class="card-title">Dynamic Motion Graphics</h3>
+                        <p class="card-description">From sleek infographics to vibrant title sequences, our motion graphics captivate audiences and deliver messages with impactful visual storytelling.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Explainer Videos & Infographics</li>
+                            <li><i class="fas fa-check"></i> Title Sequences & Broadcast Design</li>
+                            <li><i class="fas fa-check"></i> UI/UX Animation</li>
+                            <li><i class="fas fa-check"></i> Kinetic Typography</li>
+                            <li><i class="fas fa-check"></i> Logo Animation</li>
+                            <li><i class="fas fa-check"></i> Social Media Animations</li>
+                        </ul>
+                        <a href="#motion-graphics-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card animate__animated animate__zoomIn service-type-vfx service-type-post">
+                        <div class="card-icon"><i class="fas fa-hat-wizard"></i></div>
+                        <h3 class="card-title">Visual Effects (VFX) & Compositing</h3>
+                        <p class="card-description">Seamlessly blend reality with imagination. We specialize in creating breathtaking visual effects that elevate your production to cinematic grandeur.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Green Screen Keying</li>
+                            <li><i class="fas fa-check"></i> Rig Removal & Clean-up</li>
+                            <li><i class="fas fa-check"></i> Digital Set Extensions</li>
+                            <li><i class="fas fa-check"></i> Particle Effects (Fire, Smoke, Water)</li>
+                            <li><i class="fas fa-check"></i> Creature & Monster Integration</li>
+                            <li><i class="fas fa-check"></i> Mocap Data Integration</li>
+                        </ul>
+                        <a href="#vfx-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card animate__animated animate__zoomIn service-type-design">
+                        <div class="card-icon"><i class="fas fa-pencil-ruler"></i></div>
+                        <h3 class="card-title">Concept & Character Design</h3>
+                        <p class="card-description">From initial sketches to fully rendered models, we develop compelling characters and captivating worlds that form the backbone of your animated stories.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Character Concept Art</li>
+                            <li><i class="fas fa-check"></i> Environment & Prop Design</li>
+                            <li><i class="fas fa-check"></i> Mood Boards & Style Guides</li>
+                            <li><i class="fas fa-check"></i> Storyboard & Animatic Creation</li>
+                            <li><i class="fas fa-check"></i> Visual Development</li>
+                            <li><i class="fas fa-check"></i> Production Design</li>
+                        </ul>
+                        <a href="#character-design-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card animate__animated animate__zoomIn service-type-post">
+                        <div class="card-icon"><i class="fas fa-cut"></i></div>
+                        <h3 class="card-title">Full Post-Production Suite</h3>
+                        <p class="card-description">Our comprehensive post-production services ensure your animated content is polished to perfection, ready for any platform or audience.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Video Editing & Assembly</li>
+                            <li><i class="fas fa-check"></i> Color Grading & Correction</li>
+                            <li><i class="fas fa-check"></i> Sound Design & Mixing</li>
+                            <li><i class="fas fa-check"></i> Voice-over Recording</li>
+                            <li><i class="fas fa-check"></i> Music Composition & Licensing</li>
+                            <li><i class="fas fa-check"></i> Final Delivery & Mastering</li>
+                        </ul>
+                        <a href="#post-production-details" class="learn-more-button">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="service-cta-banner animate__animated animate__fadeInUp animate__delay-0-5s">
+                    <div class="banner-content">
+                        <h3>Can't find exactly what you need?</h3>
+                        <p>Our capabilities extend beyond these categories. Let's discuss your unique project requirements!</p>
+                        <a href="#contact" class="banner-cta-button">Get a Custom Quote <i class="fas fa-paper-plane"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section section-padding animate__animated animate__fadeIn">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__flipInX">Our Creative Portfolio</h2>
+                <p class="section-description animate__animated animate__flipInX animate__delay-0-3s">
+                    Dive into a visual feast of our most celebrated works. From award-winning shorts to impactful commercials.
+                </p>
+
+                <div class="portfolio-filters">
+                    <button class="filter-button active" data-filter="all">All Projects</button>
+                    <button class="filter-button" data-filter="2d">2D Showcase</button>
+                    <button class="filter-button" data-filter="3d">3D Wonders</button>
+                    <button class="filter-button" data-filter="motion">Motion Art</button>
+                    <button class="filter-button" data-filter="vfx">VFX Magic</button>
+                    <button class="filter-button" data-filter="character">Character Highlights</button>
+                    <button class="filter-button" data-filter="commercial">Commercials</button>
+                    <button class="filter-button" data-filter="shortfilm">Short Films</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-2d project-type-shortfilm">
+                        <img src="portfolio/project1_thumb.jpg" alt="Whispers of the Forest Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Whispers of the Forest</h3>
+                            <p class="portfolio-category">2D Animated Short Film</p>
+                            <a href="#" class="view-project-button" data-video-id="project1-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Fantasy</span><span>#Nature</span><span>#Adventure</span><span>#AwardWinning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-3d project-type-commercial">
+                        <img src="portfolio/project2_thumb.jpg" alt="Aether Gadget Commercial Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Aether Gadget Unveiled</h3>
+                            <p class="portfolio-category">3D Product Visualization</p>
+                            <a href="#" class="view-project-button" data-video-id="project2-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Tech</span><span>#Product</span><span>#CGI</span><span>#Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-motion project-type-commercial">
+                        <img src="portfolio/project3_thumb.jpg" alt="Synergy Corp Explainer Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Synergy Corp: The Future is Now</h3>
+                            <p class="portfolio-category">Motion Graphics Explainer</p>
+                            <a href="#" class="view-project-button" data-video-id="project3-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Infographic</span><span>#Corporate</span><span>#CleanDesign</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-vfx project-type-shortfilm">
+                        <img src="portfolio/project4_thumb.jpg" alt="City Under Siege VFX Shot Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">City Under Siege: VFX Breakdown</h3>
+                            <p class="portfolio-category">Visual Effects Showcase</p>
+                            <a href="#" class="view-project-button" data-video-id="project4-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Destruction</span><span>#Simulation</span><span>#Action</span><span>#Film</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-character">
+                        <img src="portfolio/project5_thumb.jpg" alt="The Chronos Guardians Characters Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">The Chronos Guardians</h3>
+                            <p class="portfolio-category">Character Design Portfolio</p>
+                            <a href="#" class="view-project-button" data-video-id="project5-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Concepts</span><span>#Heroes</span><span>#SciFi</span><span>#GameArt</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-2d project-type-commercial">
+                        <img src="portfolio/project6_thumb.jpg" alt="Eco-Friendly Solution Ad Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Eco-Friendly Solutions</h3>
+                            <p class="portfolio-category">2D Animated Commercial</p>
+                            <a href="#" class="view-project-button" data-video-id="project6-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Sustainability</span><span>#Green</span><span>#Education</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-3d project-type-shortfilm">
+                        <img src="portfolio/project7_thumb.jpg" alt="Lost in the Stars Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Lost in the Stars</h3>
+                            <p class="portfolio-category">3D Animated Short Film</p>
+                            <a href="#" class="view-project-button" data-video-id="project7-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Space</span><span>#Emotional</span><span>#Journey</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-motion project-type-commercial">
+                        <img src="portfolio/project8_thumb.jpg" alt="Brand Identity Reveal Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Metropolis Co. Brand Identity</h3>
+                            <p class="portfolio-category">Motion Graphics Reveal</p>
+                            <a href="#" class="view-project-button" data-video-id="project8-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Branding</span><span>#Logo</span><span>#Modern</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-vfx project-type-commercial">
+                        <img src="portfolio/project9_thumb.jpg" alt="Automotive Commercial VFX Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Future Drive Automotive Ad</h3>
+                            <p class="portfolio-category">VFX Integration Commercial</p>
+                            <a href="#" class="view-project-button" data-video-id="project9-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Cars</span><span>#Compositing</span><span>#HighTech</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-2d project-type-shortfilm">
+                        <img src="portfolio/project10_thumb.jpg" alt="The Last Scroll Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">The Last Scroll</h3>
+                            <p class="portfolio-category">2D Hand-drawn Short</p>
+                            <a href="#" class="view-project-button" data-video-id="project10-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Historical</span><span>#Mythology</span><span>#Artistic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-3d project-type-shortfilm">
+                        <img src="portfolio/project11_thumb.jpg" alt="Deep Sea Discovery Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Deep Sea Discovery</h3>
+                            <p class="portfolio-category">3D Underwater Animation</p>
+                            <a href="#" class="view-project-button" data-video-id="project11-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Ocean</span><span>#Creatures</span><span>#Exploration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-motion project-type-commercial">
+                        <img src="portfolio/project12_thumb.jpg" alt="Health & Wellness Infographic Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Wellness Journey Infographic</h3>
+                            <p class="portfolio-category">Motion Graphics Infographic</p>
+                            <a href="#" class="view-project-button" data-video-id="project12-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Health</span><span>#Education</span><span>#DataViz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-vfx project-type-shortfilm">
+                        <img src="portfolio/project13_thumb.jpg" alt="Alien Invasion VFX Sequence Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Alien Invasion: VFX Demo Reel</h3>
+                            <p class="portfolio-category">Advanced VFX Compositing</p>
+                            <a href="#" class="view-project-button" data-video-id="project13-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#SciFi</span><span>#Spaceship</span><span>#Explosion</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item animate__animated animate__zoomIn project-type-character">
+                        <img src="portfolio/project14_thumb.jpg" alt="Fantastic Beasts Concept Art Thumbnail" class="portfolio-thumbnail">
+                        <div class="portfolio-overlay">
+                            <h3 class="portfolio-title">Fantastic Beasts: Concept Art</h3>
+                            <p class="portfolio-category">Creature Design & Sculpting</p>
+                            <a href="#" class="view-project-button" data-video-id="project14-video-id">View Project <i class="fas fa-play-circle"></i></a>
+                            <div class="project-tags">
+                                <span>#Creatures</span><span>#Fantasy</span><span>#Sculpt</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="portfolio-pagination">
+                    <button class="pagination-button prev-page disabled"><i class="fas fa-chevron-left"></i> Previous</button>
+                    <div class="page-numbers">
+                        <span class="page-number active">1</span>
+                        <span class="page-number">2</span>
+                        <span class="page-number">3</span>
+                        <span class="page-number">4</span>
+                        <span class="page-number">5</span>
+                        <span class="page-number ellipsis">...</span>
+                        <span class="page-number last-page">10</span>
+                    </div>
+                    <button class="pagination-button next-page">Next <i class="fas fa-chevron-right"></i></button>
+                </div>
+
+                <div class="modal video-modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <iframe class="video-player" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="video-details">
+                            <h4 class="modal-video-title"></h4>
+                            <p class="modal-video-description"></p>
+                            <div class="modal-video-tags"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team-section section-padding animate__animated animate__fadeInUp">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__fadeInDown">Meet Our Creative Minds</h2>
+                <p class="section-description animate__animated animate__fadeInDown animate__delay-0-3s">
+                    Behind every masterpiece is a dedicated team of passionate artists, innovators, and visionaries.
+                </p>
+
+                <div class="team-members-grid">
+                    <div class="team-member-card animate__animated animate__flipInY">
+                        <img src="team/member1.jpg" alt="Jane Doe - CEO & Creative Director" class="member-photo">
+                        <h3 class="member-name">Jane Doe</h3>
+                        <p class="member-title">CEO & Creative Director</p>
+                        <p class="member-bio">Jane is the visionary behind Zocesh, with over 15 years in animation and a knack for innovative storytelling. She leads with passion and a commitment to excellence.</p>
+                        <div class="member-skills">
+                            <span>#Leadership</span><span>#Storytelling</span><span>#ConceptArt</span><span>#StrategicVision</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="Jane Doe's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="Jane Doe's ArtStation"><i class="fab fa-artstation"></i></a>
+                            <a href="#" target="_blank" aria-label="Jane Doe's Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-1s">
+                        <img src="team/member2.jpg" alt="John Smith - Lead 3D Animator" class="member-photo">
+                        <h3 class="member-name">John Smith</h3>
+                        <p class="member-title">Lead 3D Animator</p>
+                        <p class="member-bio">A master of pixels and polygons, John brings characters to life with fluid motion and stunning realism. His expertise in Maya and ZBrush is unmatched.</p>
+                        <div class="member-skills">
+                            <span>#3DAnimation</span><span>#CharacterRigging</span><span>#Modeling</span><span>#VFX</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="John Smith's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="John Smith's ArtStation"><i class="fab fa-artstation"></i></a>
+                            <a href="#" target="_blank" aria-label="John Smith's Behance"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-2s">
+                        <img src="team/member3.jpg" alt="Emily White - Lead 2D Animator" class="member-photo">
+                        <h3 class="member-name">Emily White</h3>
+                        <p class="member-title">Lead 2D Animator</p>
+                        <p class="member-bio">Emily's hand-drawn animations are renowned for their expressive characters and intricate details. She's a wizard with traditional and digital 2D tools.</p>
+                        <div class="member-skills">
+                            <span>#2DAnimation</span><span>#Illustration</span><span>#ToonBoom</span><span>#Storyboard</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="Emily White's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="Emily White's DeviantArt"><i class="fab fa-deviantart"></i></a>
+                            <a href="#" target="_blank" aria-label="Emily White's Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-3s">
+                        <img src="team/member4.jpg" alt="Michael Brown - Motion Graphics Artist" class="member-photo">
+                        <h3 class="member-name">Michael Brown</h3>
+                        <p class="member-title">Motion Graphics Artist</p>
+                        <p class="member-bio">Michael transforms data and ideas into stunning motion graphics. His expertise in After Effects and Cinema 4D creates captivating visual journeys.</p>
+                        <div class="member-skills">
+                            <span>#MotionGraphics</span><span>#AfterEffects</span><span>#Cinema4D</span><span>#Typography</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="Michael Brown's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="Michael Brown's Vimeo"><i class="fab fa-vimeo"></i></a>
+                            <a href="#" target="_blank" aria-label="Michael Brown's Dribbble"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-4s">
+                        <img src="team/member5.jpg" alt="Sarah Green - VFX Supervisor" class="member-photo">
+                        <h3 class="member-name">Sarah Green</h3>
+                        <p class="member-title">VFX Supervisor</p>
+                        <p class="member-bio">Sarah is our guru of visual effects, seamlessly integrating CG elements into live-action footage and creating impossible realities with Nuke and Houdini.</p>
+                        <div class="member-skills">
+                            <span>#VFX</span><span>#Compositing</span><span>#Houdini</span><span>#Simulation</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="Sarah Green's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="Sarah Green's IMDb"><i class="fab fa-imdb"></i></a>
+                            <a href="#" target="_blank" aria-label="Sarah Green's Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-5s">
+                        <img src="team/member6.jpg" alt="David Lee - Storyboard Artist" class="member-photo">
+                        <h3 class="member-name">David Lee</h3>
+                        <p class="member-title">Storyboard Artist & Writer</p>
+                        <p class="member-bio">David visualizes every scene with precision and flair, ensuring compelling narratives. His storyboards are the blueprint for our animated worlds.</p>
+                        <div class="member-skills">
+                            <span>#Storyboarding</span><span>#Scriptwriting</span><span>#ConceptArt</span><span>#NarrativeDesign</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="David Lee's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="David Lee's ArtStation"><i class="fab fa-artstation"></i></a>
+                            <a href="#" target="_blank" aria-label="David Lee's Portfolio"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member-card animate__animated animate__flipInY animate__delay-0-6s">
+                        <img src="team/member7.jpg" alt="Jessica Chen - Character Rigger" class="member-photo">
+                        <h3 class="member-name">Jessica Chen</h3>
+                        <p class="member-title">Character Rigger & TD</p>
+                        <p class="member-bio">Jessica builds the skeletons and controls that allow our 3D characters to move expressively. She's a technical wizard with a keen eye for animation needs.</p>
+                        <div class="member-skills">
+                            <span>#Rigging</span><span>#Python</span><span>#TechnicalArt</span><span>#ToolDevelopment</span>
+                        </div>
+                        <div class="member-social-links">
+                            <a href="#" target="_blank" aria-label="Jessica Chen's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank" aria-label="Jessica Chen's GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" aria-label="Jessica Chen's Portfolio"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section section-padding animate__animated animate__fadeIn">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__zoomIn">Latest Insights & News</h2>
+                <p class="section-description animate__animated animate__zoomIn animate__delay-0-3s">
+                    Stay updated with Zocesh Animation Studios. Read our articles on animation trends, behind-the-scenes glimpses, and industry news.
+                </p>
+
+                <div class="blog-posts-grid">
+                    <article class="blog-post-card animate__animated animate__fadeInUp">
+                        <img src="blog/blog1_thumb.jpg" alt="The Future of 2D Animation" class="post-thumbnail">
+                        <div class="post-content">
+                            <span class="post-category">2D Animation</span>
+                            <h3 class="post-title"><a href="#">The Resurgence of Hand-Drawn Animation in the Digital Age</a></h3>
+                            <p class="post-excerpt">Discover how traditional 2D animation is making a powerful comeback, blending classic techniques with modern digital tools to create breathtaking visual experiences...</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar-alt"></i> June 20, 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> By Jane Doe</span>
+                            </div>
+                            <a href="#" class="read-more-button">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card animate__animated animate__fadeInUp animate__delay-0-1s">
+                        <img src="blog/blog2_thumb.jpg" alt="Behind the Scenes of a 3D Short" class="post-thumbnail">
+                        <div class="post-content">
+                            <span class="post-category">3D Animation</span>
+                            <h3 class="post-title"><a href="#">Behind the Scenes: Crafting "Lost in the Stars" - A 3D Odyssey</a></h3>
+                            <p class="post-excerpt">Join us on an exclusive journey behind the scenes of our latest 3D animated short film, "Lost in the Stars." Learn about the challenges, triumphs, and the technology that brought it to life...</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar-alt"></i> June 15, 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> By John Smith</span>
+                            </div>
+                            <a href="#" class="read-more-button">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card animate__animated animate__fadeInUp animate__delay-0-2s">
+                        <img src="blog/blog3_thumb.jpg" alt="Motion Graphics Trends" class="post-thumbnail">
+                        <div class="post-content">
+                            <span class="post-category">Motion Graphics</span>
+                            <h3 class="post-title"><a href="#">Top 5 Motion Graphics Trends Shaping Visual Communication in 2025</a></h3>
+                            <p class="post-excerpt">From liquid animations to immersive 3D typography, explore the most impactful motion graphics trends that are dominating the digital landscape and influencing how brands connect...</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar-alt"></i> June 10, 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> By Michael Brown</span>
+                            </div>
+                            <a href="#" class="read-more-button">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-post-card animate__animated animate__fadeInUp animate__delay-0-3s">
+                        <img src="blog/blog4_thumb.jpg" alt="VFX for Indie Films" class="post-thumbnail">
+                        <div class="post-content">
+                            <span class="post-category">VFX</span>
+                            <h3 class="post-title"><a href="#">Demystifying VFX: High-Impact Visual Effects for Indie Filmmakers</a></h3>
+                            <p class="post-excerpt">Think stunning visual effects are only for big-budget blockbusters? We break down how indie filmmakers can leverage powerful VFX techniques to enhance their storytelling on a budget...</p>
+                            <div class="post-meta">
+                                <span class="post-date"><i class="fas fa-calendar-alt"></i> June 05, 2025</span>
+                                <span class="post-author"><i class="fas fa-user"></i> By Sarah Green</span>
+                            </div>
+                            <a href="#" class="read-more-button">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    </div>
+
+                <div class="blog-pagination">
+                    <button class="pagination-button prev-page-blog disabled"><i class="fas fa-arrow-left"></i> Newer Posts</button>
+                    <button class="pagination-button next-page-blog">Older Posts <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <aside class="blog-sidebar">
+                    <div class="sidebar-widget search-widget">
+                        <h4 class="widget-title">Search Blog</h4>
+                        <div class="search-box">
+                            <input type="text" placeholder="Search articles..." class="search-input">
+                            <button class="search-button"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="sidebar-widget categories-widget">
+                        <h4 class="widget-title">Categories</h4>
+                        <ul>
+                            <li><a href="#">2D Animation <span class="category-count">(12)</span></a></li>
+                            <li><a href="#">3D Animation <span class="category-count">(8)</span></a></li>
+                            <li><a href="#">Motion Graphics <span class="category-count">(10)</span></a></li>
+                            <li><a href="#">VFX <span class="category-count">(5)</span></a></li>
+                            <li><a href="#">Industry News <span class="category-count">(7)</span></a></li>
+                            <li><a href="#">Behind the Scenes <span class="category-count">(9)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget recent-posts-widget">
+                        <h4 class="widget-title">Recent Posts</h4>
+                        <ul>
+                            <li><a href="#">The Art of Storyboarding for Animation</a></li>
+                            <li><a href="#">Understanding Render Farms: A Guide</a></li>
+                            <li><a href="#">Interview with a Character Designer</a></li>
+                            <li><a href="#">From Concept to Screen: Our Workflow</a></li>
+                            <li><a href="#">Top Software for Animators in 2025</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-widget tags-widget">
+                        <h4 class="widget-title">Popular Tags</h4>
+                        <div class="tag-cloud">
+                            <a href="#">#Animation</a><a href="#">#Design</a><a href="#">#Tutorial</a><a href="#">#Film</a><a href="#">#Software</a><a href="#">#Creative</a><a href="#">#Trends</a><a href="#">#Tips</a><a href="#">#Industry</a><a href="#">#Technology</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding animate__animated animate__fadeInUp">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__fadeInDown">Get in Touch With Us</h2>
+                <p class="section-description animate__animated animate__fadeInDown animate__delay-0-3s">
+                    Ready to bring your animation project to life? We'd love to hear from you! Fill out the form below or reach us directly.
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-form-container animate__animated animate__fadeInLeft">
+                        <h3 class="form-title">Send Us a Message</h3>
+                        <form class="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Your Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required aria-required="true">
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="e.g., you@example.com" required aria-required="true">
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="e.g., +123 456 7890">
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="service-interest">Service Interest <span class="required">*</span></label>
+                                <select id="service-interest" name="service-interest" required aria-required="true">
+                                    <option value="">Select a Service</option>
+                                    <option value="2d-animation">2D Animation</option>
+                                    <option value="3d-animation">3D Animation</option>
+                                    <option value="motion-graphics">Motion Graphics</option>
+                                    <option value="vfx">VFX & Compositing</option>
+                                    <option value="character-design">Character Design</option>
+                                    <option value="storyboarding">Storyboarding</option>
+                                    <option value="post-production">Post-Production</option>
+                                    <option value="other">Other/General Inquiry</option>
+                                </select>
+                                <span class="error-message" id="service-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Project Budget (Optional)</label>
+                                <input type="text" id="budget" name="budget" placeholder="e.g., $5,000 - $10,000">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="8" placeholder="Tell us about your project, ideas, or questions..." required aria-required="true"></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            <div class="form-group form-checkbox">
+                                <input type="checkbox" id="newsletter-consent" name="newsletter-consent">
+                                <label for="newsletter-consent">I agree to receive marketing communications from Zocesh Animation Studios.</label>
+                            </div>
+                            <button type="submit" class="submit-button primary-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                            <p class="form-submission-status"></p>
+                        </form>
+                    </div>
+
+                    <div class="contact-details-container animate__animated animate__fadeInRight">
+                        <h3 class="details-title">Our Contact Information</h3>
+                        <address class="contact-address">
+                            <p><i class="fas fa-map-marker-alt"></i> <strong>Headquarters:</strong></p>
+                            <p>123 Animation Drive, Creative City,</p>
+                            <p>Artistic State, 98765, Imaginationland</p>
+                            <p>Nigeria (Simulated for example)</p>
+                            <p><a href="https://maps.google.com/?q=123+Animation+Drive,+Creative+City" target="_blank" class="map-link">View on Map <i class="fas fa-external-link-alt"></i></a></p>
+                        </address>
+
+                        <div class="contact-info-list">
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <strong>Phone:</strong>
+                                <p><a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                                <p><a href="tel:+1234567891">+1 (234) 567-8901</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <strong>Email:</strong>
+                                <p><a href="mailto:info@zocesh.com">info@zocesh.com</a></p>
+                                <p><a href="mailto:support@zocesh.com">support@zocesh.com</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <strong>Business Hours:</strong>
+                                <p>Mon - Fri: 9:00 AM - 6:00 PM (WAT)</p>
+                                <p>Sat: 10:00 AM - 2:00 PM (By Appointment)</p>
+                            </div>
+                        </div>
+
+                        <div class="social-media-links">
+                            <h3 class="social-title">Connect With Us</h3>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on ArtStation"><i class="fab fa-artstation"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Vimeo"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Behance"><i class="fab fa-behance"></i></a>
+                            <a href="#" target="_blank" class="social-icon" aria-label="Zocesh Animation Studios on Pinterest"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container animate__animated animate__fadeInUp animate__delay-0-5s">
+                    <h3 class="map-heading">Find Us on the Map</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15853.79153350278!2d3.3940176865234375!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68d3a77%3A0x8f2d59b34a1b0b5e!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map of Lagos, Nigeria"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-column footer-about">
+                <a href="#" class="footer-logo">
+                    <img src="logo.png" alt="Zocesh Animation Studios Logo" class="footer-logo-img">
+                    <span class="footer-logo-text">Zocesh Animation Studios</span>
+                </a>
+                <p class="footer-description">
+                    Innovating animation, one frame at a time. We are committed to bringing your stories to life with unparalleled creativity and technical prowess.
+                </p>
+                <div class="footer-newsletter">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-column footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Partnerships</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column footer-services">
+                <h4>Popular Services</h4>
+                <ul>
+                    <li><a href="#2d-animation">2D Animation</a></li>
+                    <li><a href="#3d-animation">3D Animation</a></li>
+                    <li><a href="#motion-graphics">Motion Graphics</a></li>
+                    <li><a href="#vfx">VFX & Compositing</a></li>
+                    <li><a href="#character-design">Character Design</a></li>
+                    <li><a href="#post-production">Post-Production</a></li>
+                    <li><a href="#">Explainer Videos</a></li>
+                    <li><a href="#">Game Cinematics</a></li>
+                    <li><a href="#">Architectural Visualization</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Animation Drive, Creative City, Artistic State, 98765</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+1234567890">+1 (234) 567-8900</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@zocesh.com">info@zocesh.com</a></p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM WAT</p>
+                <div class="footer-social-links">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; <span id="current-year"></span> Zocesh Animation Studios. All Rights Reserved. </p>
+            <div class="footer-legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <p class="attribute-text">
+                Designed & Developed with Passion by Zocesh Creative Team.
+            </p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="preloader" class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
+        </div>
+        <p class="loading-text">Loading Zocesh Imagination...</p>
+    </div>
+
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
